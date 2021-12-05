@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(71, 71, 92);
+    height: 80px;
+}
+#logincontainer{
+    position: relative;
+}
+#btnLogin{
+height: 25px;
+width: 70px;
+border-radius: 20px;
+color: white;
+background-color: rgb(2, 2, 2);
+}
+h1,h2,p{
+    color: rgb(187, 197, 189);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#icon{
+    color: rgb(235, 152, 152);
+}
+#root{
+    background-color: rgb(100, 83, 83);
+    height: 800px;
+}
+#btnLogout{
+    position: relative;
+    right: 0;
+    top: 0;
+}
+#footer{
+    background-color: rgb(75, 64, 64);
+    height: 100px;
+    position: relative;
+    bottom: 0px;
+}
+#addName{
+    width: 250px;
+}
+#divWrong{
+    position: relative;
+    width: 200px;
+    height: 0px;
+    
+}
+#textWrong{
+    color: red;
+    background-color: black;
+    position: relative;
+    display: inline-block;
+    bottom: 90px;
+    left: 20px;
+    border: rgb(255, 255, 255) 1px solid;
+}
+#div2{
+    height: 150px;
+}
+#div{
+    height: 150px;
+    background-color: rgb(68, 56, 56);
+}
+#addUsername{
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+}
+#addPassword{
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+}
+#addName{
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+}
+#btnAdd{
+    height: 45px;
+width: 90px;
+border-radius: 20px;
+color: white;
+background-color: black;
+}
+#inputValidation{
+  Color: red;
+}
+#btnLogout{
+    height: 45px;
+    width: 90px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
