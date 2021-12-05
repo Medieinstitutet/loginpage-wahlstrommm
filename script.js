@@ -113,7 +113,7 @@ let wrongText ="Det blev fel! Om du vill skaffa ett konto kan du göra det här 
 let wrongInputText="Fel inmatning!";  
 //lorem ipsum text only to fill out
 let lorem = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa doloremque voluptatem officia id debitis nihil ipsum, asperiores beatae quasi illo. Eius, non ea. Culpa temporibus voluptates iusto cum vitae quidem.";
-let lorem2 = "Look, just because I don’t be givin’ no man a foot massage don’t make it right for Marsellus to throw Antwone into a glass motherfuckin’ house, fuckin’ up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, ’cause I’ll kill the motherfucker, know what I’m sayin’?";
+let lorem2 = "Now that we know who you are, I know who I am. I’m not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain’s going to be? He’s the exact opposite of the hero. And most times they’re friends, like you and me! I should’ve known way back when… You know why, David? Because of the kids. They called me Mr Glass.";
 // Method that runs when the window is loading for the first time, or when refreshing
 window.onload = () => {
     if (getLocalStorage("status") == "logged in"){
@@ -168,7 +168,7 @@ function addNewAccount(){
 
     let newUser = createUser(submittedName, submittedUsername, submittedPassword);
     addToDatabase(newUser);
-    
+
     addName.value = "";
     addUsername.value = "";
     addPassword.value = "";
