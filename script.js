@@ -1,7 +1,7 @@
 
 /*
- Author: Magnus Wahlström
- Date: 2021-12-04
+Author: Magnus Vahlström
+Date: 2021-12-04
 */
 
 // Creating Elements
@@ -121,7 +121,6 @@ window.onload = () => {
         viewLoggedIn(name);
     } else viewLoggedOut();
 };
- 
 // Creates a object of the type: User
 // @Params: 'name' = name of a user, 'username' = a name to login to the site, 'password' = the password credentials to login to the site
 function createUser(name, username, password) {
@@ -143,8 +142,10 @@ function addToDatabase(user){
 function viewLoggedIn(name){
     h1.innerText = welcome + name;
     p1.innerText = seeYou + lorem2;
+
     logincontainer.style.display= "none";
     createUserContainer.style.display = "none";
+
     btnLogout.innerText= logOutbtn;
     btnLogout.style.display = "block";
 }
@@ -153,6 +154,7 @@ function viewLoggedIn(name){
 function viewLoggedOut(){
     h1.innerText = hello;
     p1.innerText = startText +lorem;
+
     logincontainer.style.display = "block";
     createUserContainer.style.display = "block";
     btnLogout.style.display = "none";
@@ -163,8 +165,10 @@ function addNewAccount(){
     let submittedName = addName.value;
     let submittedUsername = addUsername.value;
     let submittedPassword = addPassword.value;
+
     let newUser = createUser(submittedName, submittedUsername, submittedPassword);
     addToDatabase(newUser);
+    
     addName.value = "";
     addUsername.value = "";
     addPassword.value = "";
